@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2efefb9-da73-4cb7-b29e-e89ed8991d19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bn128/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bn128/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bn128/bn128.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bn128/bn128_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bn128/g1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bn128/g1_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bn128/g2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bn128/g2_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-cli.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circuitcompiler/circuit-test-1.circuit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circuitcompiler/circuit-test-2.circuit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circuitcompiler/circuit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circuitcompiler/circuit_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circuitcompiler/lexer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circuitcompiler/parser.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circuitexamples/factor.circuit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circuitexamples/function.circuit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circuitexamples/import-example.circuit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circuitexamples/imported-example.circuit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/beifen.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/test/compiledcircuit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/test/compiledcircuitString.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/test/privateInputs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/test/proofs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/test/publicInputs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/test/px.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/test/pxString.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/test/test.tx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/test/trustedsetup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/test/trustedsetupString.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/testgeth16/compiledcircuit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/testgeth16/compiledcircuitString.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/testgeth16/privateInputs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/testgeth16/proofs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/testgeth16/publicInputs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/testgeth16/px.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/testgeth16/pxString.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/testgeth16/test.tx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/testgeth16/trustedsetup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalVerif/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalVerif/circom-test/circuit.circom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalVerif/circom-test/circuit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalVerif/circom-test/input.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalVerif/circom-test/proof.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalVerif/circom-test/proving_key.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalVerif/circom-test/public.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalVerif/circom-test/verification_key.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalVerif/circom-test/witness.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalVerif/circomVerifier.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalVerif/circomVerifier_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fields/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fields/fq.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fields/fq12.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fields/fq2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fields/fq6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fields/fqn_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-snark-cli" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groth16/groth16.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groth16/groth16_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1csqap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1csqap/r1csqap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1csqap/r1csqap_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1csqapFloat/r1csqapFloat.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r1csqapFloat/r1csqapFloat_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snark.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snark_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/base10parsers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/hexparsers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vim-syntax/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vim-syntax/ftdetect/go-snark-circuit.vim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vim-syntax/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vim-syntax/syntax/go-snark-circuit.vim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wasm/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wasm/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wasm/go-snark-wasm-wrapper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wasm/go-snark.wasm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wasm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wasm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wasm/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wasm/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://C:/Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1uQpXIGJRExvjgyd3bWmvvFc2Rb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cli/main.go" />
+  </component>
+  <component name="RunManager" selected="Go Build.verify">
+    <configuration name="compile" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-zerosnark" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="-topic=compile -wasm=wasm  -path=D:\workspace\go-zerosnark\cli\test\ wasm" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cli/main.go" />
+      <package value="github.com/arnaucube/go-snark" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="genproofs" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-zerosnark" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="-topic=genproofs -wasm=wasm  -path=D:\workspace\go-zerosnark\cli\test\ wasm" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cli/main.go" />
+      <package value="github.com/arnaucube/go-snark" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trustedsetup" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-zerosnark" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="-topic=trustedsetup -wasm=wasm  -path=D:\workspace\go-zerosnark\cli\test\ wasm" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cli/main.go" />
+      <package value="github.com/arnaucube/go-snark" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="verify" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-zerosnark" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="-topic=verify -wasm=wasm  -path=D:\workspace\go-zerosnark\cli\test\ wasm" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cli/main.go" />
+      <package value="github.com/arnaucube/go-snark" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.compile" />
+      <item itemvalue="Go Build.trustedsetup" />
+      <item itemvalue="Go Build.genproofs" />
+      <item itemvalue="Go Build.verify" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>
