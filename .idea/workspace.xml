@@ -3,14 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="c2efefb9-da73-4cb7-b29e-e89ed8991d19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circuitcompiler/parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/circuitcompiler/parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/test/privateInputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/test/privateInputs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/test/proofs.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/test/proofs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/test/publicInputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/test/publicInputs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/test/test.tx" beforeDir="false" afterPath="$PROJECT_DIR$/cli/test/test.tx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/test/trustedsetup.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/test/trustedsetup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/test/trustedsetupString.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/test/trustedsetupString.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/testgeth16/compiledcircuit.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/testgeth16/compiledcircuitString.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/testgeth16/privateInputs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/testgeth16/proofs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/testgeth16/publicInputs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/testgeth16/px.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/testgeth16/pxString.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/testgeth16/test.tx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/testgeth16/trustedsetup.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" url="file://C:/Program Files/Go" />
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -29,60 +46,132 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cli/main.go" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
-  <component name="RunManager" selected="Go Build.verify">
+  <component name="RunManager" selected="Go Build.grothverify">
     <configuration name="compile" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-zerosnark" />
       <working_directory value="$PROJECT_DIR$" />
-      <parameters value="-topic=compile -wasm=wasm  -path=D:\workspace\go-zerosnark\cli\test\ wasm" />
+      <parameters value="-topic=compile -wasm=wasm  -path=$PROJECT_DIR$/cli/test/ wasm" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/cli/main.go" />
       <package value="github.com/arnaucube/go-snark" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cli/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="genproofs" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-zerosnark" />
       <working_directory value="$PROJECT_DIR$" />
-      <parameters value="-topic=genproofs -wasm=wasm  -path=D:\workspace\go-zerosnark\cli\test\ wasm" />
+      <parameters value="-topic=genproofs -wasm=wasm  -path=$PROJECT_DIR$/cli/test/ wasm" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/cli/main.go" />
       <package value="github.com/arnaucube/go-snark" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cli/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grethgenproofs" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-zerosnark" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="-topic=genproofs -wasm=wasm  -path=$PROJECT_DIR$/cli/test -groth=groth" />
+      <kind value="FILE" />
+      <package value="github.com/arnaucube/go-snark" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cli/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grothcompile" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-zerosnark" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="-topic=compile -wasm=wasm  -path=$PROJECT_DIR$/cli/test -groth=groth" />
+      <kind value="FILE" />
+      <package value="github.com/arnaucube/go-snark" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cli/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grothsetup" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="go-zerosnark" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="-topic=trustedsetup -wasm=wasm  -path=$PROJECT_DIR$/cli/test -groth=groth" />
+      <kind value="FILE" />
+      <package value="github.com/arnaucube/go-snark" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cli/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grothverify" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-zerosnark" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="-topic=verify -wasm=wasm  -path=$PROJECT_DIR$/cli/test -groth=groth" />
+      <kind value="FILE" />
+      <package value="github.com/arnaucube/go-snark" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cli/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="trustedsetup" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-zerosnark" />
       <working_directory value="$PROJECT_DIR$" />
-      <parameters value="-topic=trustedsetup -wasm=wasm  -path=D:\workspace\go-zerosnark\cli\test\ wasm" />
+      <parameters value="-topic=trustedsetup -wasm=wasm  -path=$PROJECT_DIR$/cli/test/ wasm" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/cli/main.go" />
       <package value="github.com/arnaucube/go-snark" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cli/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="verify" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-zerosnark" />
       <working_directory value="$PROJECT_DIR$" />
-      <parameters value="-topic=verify -wasm=wasm  -path=D:\workspace\go-zerosnark\cli\test\ wasm" />
+      <parameters value="-topic=verify -wasm=wasm  -path=$PROJECT_DIR$/cli/test/ wasm" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/cli/main.go" />
       <package value="github.com/arnaucube/go-snark" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cli/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="GoRemoteDebugConfigurationType" factoryName="Go Remote" nameIsGenerated="true">
+      <option name="disconnectOption" value="ASK" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go Build.grethgenproofs" />
+      <item itemvalue="Go Build.grothverify" />
+      <item itemvalue="Go Build.grothcompile" />
       <item itemvalue="Go Build.compile" />
       <item itemvalue="Go Build.trustedsetup" />
       <item itemvalue="Go Build.genproofs" />
       <item itemvalue="Go Build.verify" />
+      <item itemvalue="Go Build.grothsetup" />
+      <item itemvalue="Go Remote.Unnamed" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.grothsetup" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -91,5 +180,21 @@
         <entry key="GOPROXY" value="https://goproxy.io,https://mirrors.aliyun.com/goproxy/,https://goproxy.cn,direct" />
       </map>
     </environment>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/circuitcompiler/parser.go</url>
+          <line>214</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/cli/main.go</url>
+          <line>87</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

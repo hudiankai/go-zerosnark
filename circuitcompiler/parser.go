@@ -14,6 +14,7 @@ import (
 // Parser data structure holds the Scanner and the Parsing functions
 // 解析器数据结构包含扫描和解析函数
 type Parser struct {
+	// 扫描仪
 	s   *Scanner
 	buf struct {
 		tok Token  // last read token
@@ -24,6 +25,7 @@ type Parser struct {
 
 // NewParser creates a new parser from a io.Reader
 func NewParser(r io.Reader) *Parser {
+	//
 	return &Parser{s: NewScanner(r)}
 }
 
@@ -212,6 +214,7 @@ var circuits map[string]*Circuit
 // 解析函数，获取电路
 func (p *Parser) Parse() (*Circuit, error) {
 	// funcsMap is a map holding the functions names and it's content as Circuit
+	// 定义一个电路映射
 	circuits = make(map[string]*Circuit)
 	mainExist := false
 	circuits["main"] = &Circuit{}

@@ -36,9 +36,9 @@ func main()  {
 				Usage: "当前的类型有 compile trustedsetup genproofs verify",
 			},
 			cli.StringFlag{
-				Name: "geth",
+				Name: "groth",
 				Value: "",
-				Usage: "geth",
+				Usage: "groth",
 			},
 			cli.StringFlag{
 				Name: "wasm",
@@ -66,7 +66,7 @@ type Zerocli struct{
 	Topic string // 函数名
 	Path string  // 路径
 	Wasm string  //
-	Geth string  // Geth16算法
+	Groth string  // Geth16算法
 }
 
 // 执行函数
@@ -75,14 +75,14 @@ func RunZero(c *cli.Context)  {
 		Topic: c.String("topic"),
 		Path: c.String("path"),
 		Wasm: c.String("wasm"),
-		Geth: c.String("geth"),
+		Groth: c.String("groth"),
 	}
 	// 若是geth16算法，则修改路径
-	if c.String("geth") == "geth"{
-		zcli.Path = zcli.Path+"geth16\\"
+	if c.String("groth") == "groth"{
+		zcli.Path = zcli.Path+"groth16/"
 	}
-	switch zcli.Geth {
-	case "geth":
+	switch zcli.Groth {
+	case "groth":
 		switch zcli.Topic {
 		case "compile":
 			CompileCircuit(&zcli)
